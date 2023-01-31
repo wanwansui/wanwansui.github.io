@@ -2146,7 +2146,7 @@ p.search-result-summary{
 
 /* tag button */
 body.DarkMode .theme-btn {
-    background: #222;
+    background: rgb(134, 98, 98);
     border: 2px solid #555;
     border-radius: 2px;
     color: #ccc !important;
@@ -2158,8 +2158,8 @@ body.DarkMode .theme-btn {
     transition: background-color 0.2s ease-in-out;
 }
 body.DarkMode .theme-btn:hover {
-    background: #666;
-    border-color: #666;
+    background: rgb(130, 135, 177);
+    border-color: rgb(105, 148, 146);
     color: #ccc;
 }
 .theme-btn {
