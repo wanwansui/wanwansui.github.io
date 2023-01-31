@@ -1,1 +1,11 @@
 /* Here is your custom css styles. */
+@font-face{
+    font-family: 'IBMPlexMono-Italic';
+    src: url('../diy-font/ZCOOLXiaoWei-Regular.ttf');   
+}
+​
+body {
+    font-family: 'ZCOOLXiaoWei-Regular';
+}
+
+
