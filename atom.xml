@@ -6,7 +6,7 @@
   <link href="https://wanwansui.github.io/atom.xml" rel="self"/>
   
   <link href="https://wanwansui.github.io/"/>
-  <updated>2023-01-31T03:47:08.541Z</updated>
+  <updated>2023-02-03T14:09:34.295Z</updated>
   <id>https://wanwansui.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试博客2</title>
-    <link href="https://wanwansui.github.io/2022/12/27/ce-shi-bo-ke-2/"/>
-    <id>https://wanwansui.github.io/2022/12/27/ce-shi-bo-ke-2/</id>
-    <published>2022-12-27T22:43:56.000Z</published>
-    <updated>2023-01-31T03:47:08.541Z</updated>
+    <title>Episode 001. 为什么做播客呢？</title>
+    <link href="https://wanwansui.github.io/2023/02/03/episode-001-wei-shi-me-zuo-bo-ke-ni/"/>
+    <id>https://wanwansui.github.io/2023/02/03/episode-001-wei-shi-me-zuo-bo-ke-ni/</id>
+    <published>2023-02-03T13:35:10.000Z</published>
+    <updated>2023-02-03T14:09:34.295Z</updated>
     
     
       
@@ -34,12 +34,6 @@
     
     
     
-    <category term="TEST" scheme="https://wanwansui.github.io/categories/TEST/"/>
-    
-    
-    <category term="TEST" scheme="https://wanwansui.github.io/tags/TEST/"/>
-    
-    <category term="BEGIN" scheme="https://wanwansui.github.io/tags/BEGIN/"/>
     
   </entry>
   
