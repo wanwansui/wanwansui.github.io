@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>万岁～万万岁</title>
+    <link>https://wanwansui.github.io/</link>
+    
+    <atom:link href="https://wanwansui.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>Take care of ourselves</description>
+    <pubDate>Sat, 04 Feb 2023 12:22:59 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Episode 002. 过客扰动</title>
+      <link>https://wanwansui.github.io/2023/02/04/episode-002-guo-ke-rao-dong/</link>
+      <guid>https://wanwansui.github.io/2023/02/04/episode-002-guo-ke-rao-dong/</guid>
+      <pubDate>Sat, 04 Feb 2023 11:35:57 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Episode-002-过客扰动"><a href="#Episode-002-过客扰动" class="headerlink" title="Episode 002. 过客扰动"></a>Episode 002. 过客扰动</h1><p>不是每一次相遇都需要道理</p>        <div id="aplayer-MAdOMwal" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-MAdOMwal"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "Episode002过客扰动",              author: "1234 & Chloe",              url: "wanwansui002.mp3",              pic: "/2023/02/04/episode-002-guo-ke-rao-dong/profile.JPG",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content:encoded>
+      
+      
+      
+      <category domain="https://wanwansui.github.io/tags/%E9%97%B2%E8%81%8A/">闲聊</category>
+      
+      <category domain="https://wanwansui.github.io/tags/%E6%83%85%E6%84%9F/">情感</category>
+      
+      
+      <comments>https://wanwansui.github.io/2023/02/04/episode-002-guo-ke-rao-dong/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Episode 001. 为什么做播客呢？</title>
+      <link>https://wanwansui.github.io/2023/02/03/episode-001-wei-shi-me-zuo-bo-ke-ni/</link>
+      <guid>https://wanwansui.github.io/2023/02/03/episode-001-wei-shi-me-zuo-bo-ke-ni/</guid>
+      <pubDate>Fri, 03 Feb 2023 13:35:10 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Episode-001-为什么做播客呢？"><a href="#Episode-001-为什么做播客呢？" class="headerlink" title="Episode 001. 为什么做播客呢？"></a>Episode 001. 为什么做播客呢？</h1><p>此时，此刻，我们在这里。<br>欢迎你来。<br>万岁！万万岁！</p>        <div id="aplayer-pjlElEpm" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-pjlElEpm"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "Episode001为什么做播客呢",              author: "1234 & Chloe",              url: "wanwansui001.mp3",              pic: "/2023/02/03/episode-001-wei-shi-me-zuo-bo-ke-ni/profile.JPG",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content:encoded>
+      
+      
+      
+      <category domain="https://wanwansui.github.io/tags/%E9%97%B2%E8%81%8A/">闲聊</category>
+      
+      
+      <comments>https://wanwansui.github.io/2023/02/03/episode-001-wei-shi-me-zuo-bo-ke-ni/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
