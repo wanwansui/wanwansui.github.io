@@ -346,7 +346,7 @@ header .side-nav .menu-list a {
 
 .mobile-menu-list a i {
     margin-left: 8px !important;
-    font-size: 1.16rem;
+    font-size: 3.16rem;
     color: #34495e !important;
 }
 
@@ -362,7 +362,7 @@ header .side-nav .social-link {
 }
 
 .social-link a {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     display: inline;
     padding: 0 12px;
 }
@@ -509,7 +509,7 @@ header .side-nav .social-link {
 
 .cover-social-link a {
     padding: 0 15px;
-    font-size: 1.35rem;
+    font-size: 2.0rem;
     color: #fff;
 }
 
