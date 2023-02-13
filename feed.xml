@@ -17,8 +17,11 @@
       <itunes:email>wswanwansui@outlook.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://wanwansui.github.io/medias/banner/logo.png"/>
-    <itunes:category text="Growth">
-      <itunes:category text="Podcasting"/>
+    <itunes:category text="Education">
+      <itunes:category text="Self-Improvement"/>
+    </itunes:category>  
+    <itunes:category text="Society & Culture">
+      <itunes:category text="Personal Journals"/>
     </itunes:category>
     
     <atom:link href="https://wanwansui.github.io/feed.xml" rel="self" type="application/rss+xml"/>
