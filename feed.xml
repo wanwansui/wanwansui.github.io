@@ -23,7 +23,7 @@
     <itunes:category text="Arts">
       <itunes:category text="Performing Arts"/>
     </itunes:category> 
-
+    <itunes:keywords>个人成长,自我认知,行为艺术,生活拓展</itunes:keywords>
     
     <atom:link href="https://wanwansui.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     
@@ -66,6 +66,7 @@
       
       <itunes:duration>36:56</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
+      
     </item>
     
     <item>
@@ -100,6 +101,7 @@
       
       <itunes:duration>41:38</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
+      
     </item>
     
   </channel>
