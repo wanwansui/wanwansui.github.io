@@ -16,14 +16,14 @@
       <itunes:name>1234</itunes:name>
       <itunes:email>wswanwansui@outlook.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://wanwansui.github.io/medias/banner/0.jpg"/>
+    <itunes:image href="https://wanwansui.github.io/medias/banner/logo.png"/>
     <itunes:category text="Growth">
       <itunes:category text="Podcasting"/>
     </itunes:category>
     
     <atom:link href="https://wanwansui.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     
-    <description>小燚 &amp; 1234 的行为艺术</description>
+    <description>成长是最美的行为艺术！Please take care of yourself！这里是小燚 &amp; 1234 的行为艺术</description>
     
     <pubDate>Mon, 13 Feb 2023 00:43:17 GMT</pubDate>
     <generator>https://wanwansui.github.io/friends/</generator>
