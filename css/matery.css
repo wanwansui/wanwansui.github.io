@@ -330,7 +330,7 @@ header .side-nav .mobile-head .logo-desc {
     padding-bottom: 10px;
     font-size: 0.8rem;
     line-height: 1.3rem;
-    color: #e3e3e3;
+    color: #faf6f6;
 }
 
 header .side-nav .menu-list li {
@@ -379,7 +379,7 @@ header .side-nav .social-link {
     height: 45px;
     line-height: 45px;
     font-size: 1rem;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border: 1px solid #fff;
     background-color: transparent;
     border-radius: 30px;
@@ -510,7 +510,8 @@ header .side-nav .social-link {
 .cover-social-link a {
     padding: 0 15px;
     font-size: 2.0rem;
-    color: #fff;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #355896a3;
 }
 
 header .go-back {
