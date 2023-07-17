@@ -514,8 +514,14 @@ header .side-nav .social-link {
     padding: 0 15px;
     font-size: 2.0rem;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px #355896a3;
+    text-shadow: 1px 1px 2px #01163aa3;
+    transition: transform 0.3s ease;
 }
+
+.cover-social-link a:hover {
+    transform: scale(1.2);
+}
+
 
 header .go-back {
     float: left;
@@ -1354,11 +1360,17 @@ thead {
     justify-content: center; /* 水平居中对齐 */
     align-items: center; /* 垂直居中对齐 */
     text-align: center;
+    transition: transform 0.3s ease; /* 添加过渡效果 */
 }
 
 #cd-timeline .year a {
     color: #fff;
-    font-family: sub-font;
+    font-family: navi-font;
+    text-shadow: 2px 2px 4px rgba(4, 2, 33, 0.596);
+
+}
+#cd-timeline .year:hover {
+    transform: scale(1.2); /* 鼠标滑过时放大到 1.1 倍大小 */
 }
 
 #cd-timeline .month {
@@ -1375,11 +1387,16 @@ thead {
     justify-content: center; /* 水平居中对齐 */
     align-items: center; /* 垂直居中对齐 */
     text-align: center;
+    transition: transform 0.3s ease; /* 添加过渡效果 */
 }
 
 #cd-timeline .month a {
     color: #fff;
-    font-family: sub-font;
+    font-family: title-font;
+    text-shadow: 2px 2px 4px rgba(104, 3, 55, 0.694);
+}
+#cd-timeline .month:hover {
+    transform: scale(1.2); /* 鼠标滑过时放大到 1.1 倍大小 */
 }
 
 #cd-timeline .day {
@@ -1388,12 +1405,13 @@ thead {
     background: linear-gradient(135deg, #fc8658, #f5f532);
     color: #fff;
     border-radius: 30px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex; /* 使用 Flex 布局 */
     justify-content: center; /* 水平居中对齐 */
     align-items: center; /* 垂直居中对齐 */
     text-align: center;
-    font-family: title-font;
+    font-family: navi-font;
+    text-shadow: 2px 2px 4px rgba(249, 90, 27, 0.5);
 }
 
 #cd-timeline {
@@ -1411,8 +1429,8 @@ thead {
     top: 0;
     left: 18px;
     height: 100%;
-    width: 4px;
-    background: #5c73f8c8;
+    width: 6px;
+    background: #5c73f89c;
 }
 
 @media only screen and (min-width: 900px) {
