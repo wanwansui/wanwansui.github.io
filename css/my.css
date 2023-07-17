@@ -36,3 +36,8 @@ body{
     font-family: 'Sub-Font';
 }
 
+/* 给subtitle添加阴影 */
+.subtitle-shadow {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.685);
+}
+
