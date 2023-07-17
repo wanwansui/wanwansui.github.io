@@ -1,0 +1,38 @@
+/* Here is your custom css styles. */
+/* 自定义字体 */
+@font-face{
+    font-family: 'Body-Font';
+    src: url('../font/ResourceHanRoundedCN-VF.otf');
+}
+
+@font-face{
+    font-family: 'Title-Font';
+    src: url('../font/宅在家麦克笔.ttf');
+}
+
+@font-face{
+    font-family: 'Navi-Font';
+    src: url('../font/ResourceHanRoundedCN-Heavy.ttf');
+}
+
+@font-face{
+    font-family: 'Sub-Font';
+    src: url('../font/有爱魔兽圆体-B.ttf');
+}
+
+body{
+    font-family: 'Body-Font';
+}
+
+.titleFont{
+    font-family: 'Title-Font';
+}
+
+.naviFont{
+    font-family: 'Navi-Font';
+}
+
+.subtitleFont{
+    font-family: 'Sub-Font';
+}
+

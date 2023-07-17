@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>"万岁万万岁"</title>
+  </head>
+  <body>
+    <outline text="万岁万万岁" type="rss" xmlUrl="https://wanwansui.github.io/feed.xml"/>
+  </body>
+</opml>
