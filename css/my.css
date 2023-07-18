@@ -2,7 +2,7 @@
 /* 自定义字体 */
 @font-face{
     font-family: 'Body-Font';
-    src: url('../font/ResourceHanRoundedCN-Regular.ttf');
+    src: url('../font/ResourceHanRoundedCN-Light.ttf');
 }
 
 @font-face{
