@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #e31bfd 0%, #13f7ec 100%);
+    background-image: linear-gradient(to right, #e31bfd 0%, #13c2f7 100%);
 }
 
 .text-color {
@@ -257,7 +257,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4194d3 50%, #df4040 50%);
+    background: linear-gradient(to right, #b381fa 50%, #577dfa 50%);
     opacity: 0.8;
 }
 
