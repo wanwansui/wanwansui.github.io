@@ -41,3 +41,7 @@ body{
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.685);
 }
 
+.post-title {
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.954);
+}
+
