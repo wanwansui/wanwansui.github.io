@@ -1967,6 +1967,19 @@ p.search-result-summary{
     line-height: 48px;
     font-size: 1.8rem;
 }
+/* 添加箭头的阴影效果 */
+.top-scroll .btn-floating .shadowed {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.742));
+}
+/* 增加鼠标经过动态效果 */
+.top-scroll .btn-floating:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+/* 增加圆形向内的阴影 */
+.top-scroll .btn-floating {
+    box-shadow: inset 0 0 20px rgba(253, 253, 187, 0.664);
+}
 
 @media screen and (min-width: 368px) and (max-width: 767px) {
     .info-break-policy {
