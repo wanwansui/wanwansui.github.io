@@ -44,4 +44,9 @@ body{
 .post-title {
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.954);
 }
+/* 给主页文章标题加阴影 */
+.title-shadow {
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+
 

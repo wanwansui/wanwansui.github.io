@@ -784,7 +784,7 @@ header .go-back i {
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.495);
+    background-color: rgba(248, 245, 245, 0.262);
     border-radius: 10px;
 }
 
@@ -801,7 +801,7 @@ header .go-back i {
     color: rgba(0, 0, 0, .87);
     background: #fff 50%;
     background-size: cover;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.418), 0 5px 15px rgba(0, 0, 0, .07);
 }
 
 .recommend .post-card .post-body {
@@ -817,9 +817,10 @@ header .go-back i {
 
 .recommend .post-card .post-categories .category {
     padding: 0 8px;
-    color: hsla(0, 0%, 100%, .7) !important;
-    font-size: .75rem;
-    font-weight: 500;
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.05rem;
+    font-weight: 550;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
 }
 
 .recommend .post-card a {
@@ -837,8 +838,10 @@ header .go-back i {
     max-width: 500px;
     height: 65px;
     max-height: 65px;
-    font-size: 14px;
-    color: hsla(0, 0%, 100%, .78) !important;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
 }
 
 .recommend .post-card .read-more {
