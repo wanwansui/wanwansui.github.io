@@ -7,10 +7,14 @@
     <meta name="keywords" content="E018.电影《野蛮人入侵》｜生活是最好的行为艺术, 万岁万万岁">
     <meta name="description" content="Barbarian Invasion｜Life is the Best Performance Art原文发布于Matters：野蛮人入侵｜生活是最好的行为艺术
 
-        
-            
-        
-       ">
+  
+    
+    
+      
+    
+    
+    
+   ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -67,9 +71,15 @@
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/feed.xml" title="万岁万万岁" type="application/rss+xml">
-<link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
-<script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
+
+
+<!-- Plyr 样式 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css" />
+
+<!-- Plyr JS -->
+<script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.polyfilled.min.js"></script>
+
 
 
 <body>
@@ -378,27 +388,46 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>Barbarian Invasion｜Life is the Best Performance Art<br>原文发布于Matters：<a target="_blank" rel="noopener" href="https://matters.town/a/2cuxol8ocfe9">野蛮人入侵｜生活是最好的行为艺术</a></p>
+<div style="max-width: 800px; margin: auto;margin-top: -1.0em;">
+  <div style="display: flex; align-items: flex-end; gap: 12px;">
+    <!-- 左侧播客logo -->
+    <div style="flex-shrink: 0;">
+      <img src="https://wanwansui.github.io/images/hooray.jpg" 
+           style="width: 61px; height: 61px; border-radius: 5px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+    </div>
+    <!-- 右侧内容区域 -->
+    <div style="flex-grow: 1;">
+      <figure style="margin: 0; text-align: left;">
+        <!-- 音频标题和作者 -->
+        <figcaption style="margin-bottom: 0px; font-size: 1.1em; display: flex; align-items: baseline; flex-wrap: wrap;">
+          <div style="font-weight: bold; margin-right: 8px;">
+            E018. 电影《野蛮人入侵》｜生活是最好的行为艺术
+          </div>
+          <div style="font-weight: normal; color: #666;">
+            陆昭旸
+          </div>
+        </figcaption>
+        <!-- 播放器本体 -->
+        <audio id="plyr-e18" controls>
+          <source src="wanwansui018B.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </figure>
+    </div>
+  </div>
+</div>
 
-        <div id="aplayer-mmlyGVAD" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-mmlyGVAD"),
-            narrow: false,
-            autoplay: true,
-            showlrc: false,
-            music: {
-              title: "E018.电影《野蛮人入侵》｜生活是最好的行为艺术",
-              author: "陆昭旸",
-              url: "wanwansui017.mp3",
-              pic: "/images/hooray.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
+<!-- 初始化 Plyr -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const player = new Plyr('#plyr-e18', {
+      controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'settings'],
+      settings: ['speed'],
+      speed: { selected: 1, options: [0.8, 1, 1.25, 1.5, 1.75, 2, 2.5] }
+    });
+  });
+</script>
+
 <p><strong>《野蛮人入侵》</strong>是马来西亚女导演<strong>陈翠梅</strong>自编自导自演的电影作品。这是一部很特别的以女性的经历思考和探险为主的电影。融合武术，电影，母职，自我探索和禅学等非常丰富的元素。我非常喜欢！非常有启发性，每次看都会有新的感受迸发出来。这一期的播客来自于我看过这部电影之后写的一篇文章。这篇文章并不是影评，只是我<strong>非常主观意识流</strong>的一些想法，毫无章法可言，也不遵循任何线性的逻辑。这一点和这部电影野蛮人入侵的表达方式竟然还有一点点儿相似，这也算是我另类的表达我对这部电影的喜爱吧。</p>
 <p>00:58 女主的名字好似是带有禅意和哲思的多重投影的叠加，虚虚实实，更像是人辗转变化的心境和视角。</p>
 <p>02:14《野蛮人入侵》的主角，是自我！什么是自我？</p>

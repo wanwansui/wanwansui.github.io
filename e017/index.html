@@ -69,6 +69,14 @@
 </head>
 
 
+<!-- Plyr 样式 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css" />
+
+<!-- Plyr JS -->
+<script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.polyfilled.min.js"></script>
+
+
+
 <body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
@@ -374,13 +382,13 @@
             <div id="articleContent">
                 <h1 id="🎧特别系列：英语学习之–雅思范文精听-Technology-has-made-man-more-social"><a href="#🎧特别系列：英语学习之–雅思范文精听-Technology-has-made-man-more-social" class="headerlink" title="🎧特别系列：英语学习之–雅思范文精听 Technology has made man more social"></a>🎧<strong>特别系列：英语学习之–雅思范文精听 Technology has made man more social</strong></h1><p>精听是提升英语听力非常有效的方法，<br>如果用重视逻辑和批判性思维的雅思写作范文当精听材料呢？<br>如果顺便手把手精读范文呢？<br>如果逐句拆解成思维导图🧠，一目了然呢？<br>当然是事半功很多倍啦！</p>
 <h2 id="指路链接："><a href="#指路链接：" class="headerlink" title="指路链接："></a>指路链接：</h2><p>➢💌<a href="https://wanwansui.github.io/e017/">完整版写作分析与精听</a><br>🐈点击下载⏬ <a href="https://wanwansui.github.io/download/017-essay01.pdf">纯净版范文pdf</a><br>🐕点击下载⏬ <a href="https://wanwansui.github.io/download/017-essay01xmind.pdf">思维导图pdf</a>❗️❗️❗️❗️<br>✏️<a target="_blank" rel="noopener" href="https://www.ieltspodcast.com/writing-task-2/band-9-sample-essays/technology-social/">写作范文原载网址</a></p>
-
-        <div id="aplayer-mLYYahus" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+<!-- 
+        <div id="aplayer-DzIaMTXe" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-mLYYahus"),
+            element: document.getElementById("aplayer-DzIaMTXe"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -394,8 +402,47 @@
           });
           window.aplayers || (window.aplayers = []);
           window.aplayers.push(ap);
-        </script>
+        </script> -->
 
+<div style="max-width: 800px; margin: auto;margin-top: -1.0em;">
+  <div style="display: flex; align-items: flex-end; gap: 12px;">
+    <!-- 左侧播客logo -->
+    <div style="flex-shrink: 0;">
+      <img src="https://wanwansui.github.io/images/hooray.jpg" 
+           style="width: 61px; height: 61px; border-radius: 5px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+    </div>
+    <!-- 右侧内容区域 -->
+    <div style="flex-grow: 1;">
+      <figure style="margin: 0; text-align: left;">
+        <!-- 音频标题和作者 -->
+        <figcaption style="margin-bottom: 0px; font-size: 1.1em; display: flex; align-items: baseline; flex-wrap: wrap;">
+          <div style="font-weight: bold; margin-right: 8px;">
+            E017.雅思写作范文精听详解01
+          </div>
+          <div style="font-weight: normal; color: #666;">
+            陆昭旸
+          </div>
+        </figcaption>
+        <!-- 播放器本体 -->
+        <audio id="plyr-e18" controls>
+          <source src="wanwansui017.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<!-- 初始化 Plyr -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const player = new Plyr('#plyr-e18', {
+      controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'settings'],
+      settings: ['speed'],
+      speed: { selected: 1, options: [0.8, 1, 1.25, 1.5, 1.75, 2, 2.5] }
+    });
+  });
+</script>
 <hr>
 <h1 id="➪➫➬➭正文开始！"><a href="#➪➫➬➭正文开始！" class="headerlink" title="➪➫➬➭正文开始！"></a>➪➫➬➭正文开始！</h1><h2 id="雅思写作题目"><a href="#雅思写作题目" class="headerlink" title="雅思写作题目:"></a>雅思写作题目:</h2><blockquote>
 <p><strong>Some people believe that technology has made man more social. To what extent do you agree or disagree with this opinion?</strong></p>
